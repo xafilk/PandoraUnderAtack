@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              tools:context=".MyActivity" android:weightSum="1">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Bienvenido"
+            android:id="@+id/textView" android:textSize="30dp" android:visibility="visible"
+            android:layout_weight="0.06" android:clickable="false" android:gravity="center"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PandoraUnderAtack"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/PandoraUnderAtack" android:gravity="center"
+            android:layout_marginTop="50dp"/>
+    <Button
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="@string/CrearClan"
+            android:id="@+id/Crear_Clan" android:layout_weight="0.06" android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp" android:textStyle="bold" android:visibility="visible"
+            android:clickable="false"/>
+    <Button android:layout_width="175dp" android:layout_height="wrap_content" android:text="@string/UnirseClan"
+            android:id="@+id/Unirse_Clan" android:layout_weight="0.06" android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp" android:textStyle="bold" android:visibility="visible"
+            android:clickable="false"/>
+</LinearLayout>
+

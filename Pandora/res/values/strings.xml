@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PandaraUnderAtack</string>
+    <string name="Bienvenido">Bienvenido...</string>
+    <string name="PandoraUnderAtack">Pandora Under Atack</string>
+    <string name="CrearClan">Crear Clan</string>
+    <string name="UnirseClan">Unirse a un Clan</string>
+</resources>
